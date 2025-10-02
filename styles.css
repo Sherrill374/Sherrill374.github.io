@@ -63,3 +63,68 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+   /* ===== Navigation ===== */
+nav a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #333;
+  transition: background-color 0.3s ease; /* smooth transition */
+}
+
+nav a:hover {
+  background-color: #ddd; /* changes color on hover */
+}
+
+/* ===== Sections (Main Content) ===== */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: transform 0.3s ease; /* smooth scale transition */
+}
+
+section:hover {
+  transform: scale(1.02); /* zoom in effect */
+}
+
+/* ===== Table Styling ===== */
+#projects table {
+  width: 100%;
+  border-collapse: collapse; /* neat borders */
+  margin-top: 15px;
+}
+
+#projects th, 
+#projects td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#projects thead th {
+  background-color: #333;
+  color: white;
+}
+
+#projects caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+#projects tfoot td {
+  text-align: center;
+  font-style: italic;
+  background-color: #f9f9f9;
+}
+
+/* Optional: images inside the table */
+#projects img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100px;
+  border-radius: 6px;
+}
+ 
