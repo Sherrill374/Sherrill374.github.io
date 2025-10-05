@@ -33,6 +33,27 @@
     <section>
       <h4>Contact</h4>
       <p>Contact Section</p>
+       <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST"> <!-- Replace '#' with your form submission endpoint -->
+            <div>
+                <label for="senderName">Name:</label>
+                <input type="text" id="senderName" name="senderName" required>
+            </div>
+            <div>
+                <label for="senderEmail">Email:</label>
+                <input type="email" id="senderEmail" name="senderEmail" required>
+            </div>
+            <div>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
    <section id="projects">
   <h2>Projects</h2>
