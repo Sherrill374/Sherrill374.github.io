@@ -11,3 +11,5 @@
 -Clone the repository:
    ```bash
 git clonehttps://github.com/Sherrill374/Sherrill374.github.io
+##screenshot
+<img width="1354" height="761" alt="image" src="https://github.com/user-attachments/assets/d337b20d-58b9-4ec0-a198-7e6fd5c885cc" />
